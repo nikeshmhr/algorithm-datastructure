@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <stdlib.h>
 #include <assert.h>
 #include "stack.h"
