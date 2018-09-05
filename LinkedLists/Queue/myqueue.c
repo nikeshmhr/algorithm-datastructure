@@ -6,9 +6,10 @@ int main() {
     head = tail = NULL;
 
     printf("IS QUEUE EMPTY : %d\n", is_empty(&head, &tail));
-    enqueue(&head, &tail, 10);
-    enqueue(&head, &tail, 20);
-    enqueue(&head, &tail, 35);
+    for(int i = 0; i <= 20; i++) {
+        int value = i * 2;
+        enqueue(&head, &tail, value);
+    }
     print(&head);
     dequeue(&head, &tail);
     print(&head);
