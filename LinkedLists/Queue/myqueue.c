@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "queue.h"
 
-void main() {
+int main() {
     Node head, tail;
     head = tail = NULL;
 
@@ -16,4 +16,6 @@ void main() {
     print(&head);
     dequeue(&head, &tail);
     print(&head);
+
+    return 0;
 }
